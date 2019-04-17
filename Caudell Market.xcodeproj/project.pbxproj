@@ -7,27 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110CF311224C7AB000E04014 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 110CF310224C7AB000E04014 /* art.scnassets */; };
+		111C67A5225C566D002216DE /* ToolCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C67A4225C566D002216DE /* ToolCollectionViewCell.swift */; };
+		117677C5225C76190078E80B /* BoschApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117677C4225C76190078E80B /* BoschApi.swift */; };
+		11907DCE2253260A0089F4F2 /* Herramientas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11907DCD2253260A0089F4F2 /* Herramientas.swift */; };
 		11A3F122224BF40D0071DFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3F121224BF40D0071DFC1 /* AppDelegate.swift */; };
-		11A3F124224BF40D0071DFC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3F123224BF40D0071DFC1 /* ViewController.swift */; };
+		11A3F124224BF40D0071DFC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3F123224BF40D0071DFC1 /* HomeViewController.swift */; };
 		11A3F127224BF40D0071DFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A3F125224BF40D0071DFC1 /* Main.storyboard */; };
 		11A3F12A224BF40D0071DFC1 /* Caudell_Market.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11A3F128224BF40D0071DFC1 /* Caudell_Market.xcdatamodeld */; };
 		11A3F12C224BF40F0071DFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A3F12B224BF40F0071DFC1 /* Assets.xcassets */; };
 		11A3F12F224BF40F0071DFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A3F12D224BF40F0071DFC1 /* LaunchScreen.storyboard */; };
+		11A3F139224BF6590071DFC1 /* RAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3F138224BF6590071DFC1 /* RAViewController.swift */; };
+		11FBD70722663B3E00DBBDE7 /* Caudell_MarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FBD70622663B3E00DBBDE7 /* Caudell_MarketTests.swift */; };
+		6154FA16E7919FBA89166D47 /* Pods_Caudell_Market.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B984F69311FB5DDDE99B2544 /* Pods_Caudell_Market.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		11FBD70922663B3E00DBBDE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A3F116224BF40D0071DFC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A3F11D224BF40D0071DFC1;
+			remoteInfo = "Caudell Market";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		110CF310224C7AB000E04014 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		111C67A4225C566D002216DE /* ToolCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolCollectionViewCell.swift; sourceTree = "<group>"; };
+		117677C4225C76190078E80B /* BoschApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoschApi.swift; sourceTree = "<group>"; };
+		11907DCD2253260A0089F4F2 /* Herramientas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Herramientas.swift; sourceTree = "<group>"; };
 		11A3F11E224BF40D0071DFC1 /* Caudell Market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caudell Market.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A3F121224BF40D0071DFC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11A3F123224BF40D0071DFC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11A3F123224BF40D0071DFC1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		11A3F126224BF40D0071DFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11A3F129224BF40D0071DFC1 /* Caudell_Market.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Caudell_Market.xcdatamodel; sourceTree = "<group>"; };
 		11A3F12B224BF40F0071DFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A3F12E224BF40F0071DFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11A3F130224BF40F0071DFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A3F138224BF6590071DFC1 /* RAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAViewController.swift; sourceTree = "<group>"; };
+		11FBD70422663B3E00DBBDE7 /* Caudell MarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Caudell MarketTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FBD70622663B3E00DBBDE7 /* Caudell_MarketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caudell_MarketTests.swift; sourceTree = "<group>"; };
+		11FBD70822663B3E00DBBDE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B32D97F7DF4F3AD9F046E8 /* Pods-Caudell Market.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caudell Market.debug.xcconfig"; path = "Target Support Files/Pods-Caudell Market/Pods-Caudell Market.debug.xcconfig"; sourceTree = "<group>"; };
+		B11113B29718B4FA35ED0D3C /* Pods-Caudell Market.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caudell Market.release.xcconfig"; path = "Target Support Files/Pods-Caudell Market/Pods-Caudell Market.release.xcconfig"; sourceTree = "<group>"; };
+		B984F69311FB5DDDE99B2544 /* Pods_Caudell_Market.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Caudell_Market.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		11A3F11B224BF40D0071DFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6154FA16E7919FBA89166D47 /* Pods_Caudell_Market.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FBD70122663B3E00DBBDE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				11A3F120224BF40D0071DFC1 /* Caudell Market */,
+				11FBD70522663B3E00DBBDE7 /* Caudell MarketTests */,
 				11A3F11F224BF40D0071DFC1 /* Products */,
+				B035958C4BA060150EBDAF4A /* Pods */,
+				1EA3DE31B003060C3239ED35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				11A3F11E224BF40D0071DFC1 /* Caudell Market.app */,
+				11FBD70422663B3E00DBBDE7 /* Caudell MarketTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,14 +97,69 @@
 			isa = PBXGroup;
 			children = (
 				11A3F121224BF40D0071DFC1 /* AppDelegate.swift */,
-				11A3F123224BF40D0071DFC1 /* ViewController.swift */,
-				11A3F125224BF40D0071DFC1 /* Main.storyboard */,
-				11A3F12B224BF40F0071DFC1 /* Assets.xcassets */,
 				11A3F12D224BF40F0071DFC1 /* LaunchScreen.storyboard */,
+				11A3F13D224BFB770071DFC1 /* SourceData */,
+				11A3F137224BF4800071DFC1 /* Controladores */,
+				11A3F136224BF42F0071DFC1 /* Vistas */,
+				11A3F12B224BF40F0071DFC1 /* Assets.xcassets */,
+				110CF310224C7AB000E04014 /* art.scnassets */,
 				11A3F130224BF40F0071DFC1 /* Info.plist */,
 				11A3F128224BF40D0071DFC1 /* Caudell_Market.xcdatamodeld */,
 			);
 			path = "Caudell Market";
+			sourceTree = "<group>";
+		};
+		11A3F136224BF42F0071DFC1 /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+				11A3F125224BF40D0071DFC1 /* Main.storyboard */,
+			);
+			name = Vistas;
+			sourceTree = "<group>";
+		};
+		11A3F137224BF4800071DFC1 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				11A3F123224BF40D0071DFC1 /* HomeViewController.swift */,
+				11A3F138224BF6590071DFC1 /* RAViewController.swift */,
+				111C67A4225C566D002216DE /* ToolCollectionViewCell.swift */,
+			);
+			name = Controladores;
+			sourceTree = "<group>";
+		};
+		11A3F13D224BFB770071DFC1 /* SourceData */ = {
+			isa = PBXGroup;
+			children = (
+				11907DCD2253260A0089F4F2 /* Herramientas.swift */,
+				117677C4225C76190078E80B /* BoschApi.swift */,
+			);
+			name = SourceData;
+			sourceTree = "<group>";
+		};
+		11FBD70522663B3E00DBBDE7 /* Caudell MarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				11FBD70622663B3E00DBBDE7 /* Caudell_MarketTests.swift */,
+				11FBD70822663B3E00DBBDE7 /* Info.plist */,
+			);
+			path = "Caudell MarketTests";
+			sourceTree = "<group>";
+		};
+		1EA3DE31B003060C3239ED35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B984F69311FB5DDDE99B2544 /* Pods_Caudell_Market.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B035958C4BA060150EBDAF4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8B32D97F7DF4F3AD9F046E8 /* Pods-Caudell Market.debug.xcconfig */,
+				B11113B29718B4FA35ED0D3C /* Pods-Caudell Market.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11A3F133224BF40F0071DFC1 /* Build configuration list for PBXNativeTarget "Caudell Market" */;
 			buildPhases = (
+				2B21D2D488DF8B7F5B7DE8FE /* [CP] Check Pods Manifest.lock */,
 				11A3F11A224BF40D0071DFC1 /* Sources */,
 				11A3F11B224BF40D0071DFC1 /* Frameworks */,
 				11A3F11C224BF40D0071DFC1 /* Resources */,
+				CE9642C4C30A732CE3E17B23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,6 +183,24 @@
 			productName = "Caudell Market";
 			productReference = 11A3F11E224BF40D0071DFC1 /* Caudell Market.app */;
 			productType = "com.apple.product-type.application";
+		};
+		11FBD70322663B3E00DBBDE7 /* Caudell MarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FBD70D22663B3E00DBBDE7 /* Build configuration list for PBXNativeTarget "Caudell MarketTests" */;
+			buildPhases = (
+				11FBD70022663B3E00DBBDE7 /* Sources */,
+				11FBD70122663B3E00DBBDE7 /* Frameworks */,
+				11FBD70222663B3E00DBBDE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FBD70A22663B3E00DBBDE7 /* PBXTargetDependency */,
+			);
+			name = "Caudell MarketTests";
+			productName = "Caudell MarketTests";
+			productReference = 11FBD70422663B3E00DBBDE7 /* Caudell MarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +214,10 @@
 				TargetAttributes = {
 					11A3F11D224BF40D0071DFC1 = {
 						CreatedOnToolsVersion = 10.2;
+					};
+					11FBD70322663B3E00DBBDE7 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 11A3F11D224BF40D0071DFC1;
 					};
 				};
 			};
@@ -116,6 +235,7 @@
 			projectRoot = "";
 			targets = (
 				11A3F11D224BF40D0071DFC1 /* Caudell Market */,
+				11FBD70322663B3E00DBBDE7 /* Caudell MarketTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,26 +245,103 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110CF311224C7AB000E04014 /* art.scnassets in Resources */,
 				11A3F12F224BF40F0071DFC1 /* LaunchScreen.storyboard in Resources */,
 				11A3F12C224BF40F0071DFC1 /* Assets.xcassets in Resources */,
 				11A3F127224BF40D0071DFC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		11FBD70222663B3E00DBBDE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B21D2D488DF8B7F5B7DE8FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Caudell Market-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9642C4C30A732CE3E17B23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Caudell Market/Pods-Caudell Market-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Caudell Market/Pods-Caudell Market-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11A3F11A224BF40D0071DFC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A3F124224BF40D0071DFC1 /* ViewController.swift in Sources */,
+				111C67A5225C566D002216DE /* ToolCollectionViewCell.swift in Sources */,
+				11907DCE2253260A0089F4F2 /* Herramientas.swift in Sources */,
+				117677C5225C76190078E80B /* BoschApi.swift in Sources */,
+				11A3F124224BF40D0071DFC1 /* HomeViewController.swift in Sources */,
 				11A3F122224BF40D0071DFC1 /* AppDelegate.swift in Sources */,
 				11A3F12A224BF40D0071DFC1 /* Caudell_Market.xcdatamodeld in Sources */,
+				11A3F139224BF6590071DFC1 /* RAViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FBD70022663B3E00DBBDE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FBD70722663B3E00DBBDE7 /* Caudell_MarketTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11FBD70A22663B3E00DBBDE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A3F11D224BF40D0071DFC1 /* Caudell Market */;
+			targetProxy = 11FBD70922663B3E00DBBDE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		11A3F125224BF40D0071DFC1 /* Main.storyboard */ = {
@@ -284,11 +481,13 @@
 		};
 		11A3F134224BF40F0071DFC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B32D97F7DF4F3AD9F046E8 /* Pods-Caudell Market.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6444A3NU99;
 				INFOPLIST_FILE = "Caudell Market/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +501,13 @@
 		};
 		11A3F135224BF40F0071DFC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11113B29718B4FA35ED0D3C /* Pods-Caudell Market.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6444A3NU99;
 				INFOPLIST_FILE = "Caudell Market/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +516,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11FBD70B22663B3E00DBBDE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6444A3NU99;
+				INFOPLIST_FILE = "Caudell MarketTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "baragar.Caudell-MarketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caudell Market.app/Caudell Market";
+			};
+			name = Debug;
+		};
+		11FBD70C22663B3E00DBBDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6444A3NU99;
+				INFOPLIST_FILE = "Caudell MarketTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "baragar.Caudell-MarketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caudell Market.app/Caudell Market";
 			};
 			name = Release;
 		};
@@ -335,6 +576,15 @@
 			buildConfigurations = (
 				11A3F134224BF40F0071DFC1 /* Debug */,
 				11A3F135224BF40F0071DFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FBD70D22663B3E00DBBDE7 /* Build configuration list for PBXNativeTarget "Caudell MarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FBD70B22663B3E00DBBDE7 /* Debug */,
+				11FBD70C22663B3E00DBBDE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

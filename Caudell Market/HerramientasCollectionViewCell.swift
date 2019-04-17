@@ -8,7 +8,7 @@
 
 import UIKit
 
-class  HerramientasViewControllerCell : UICollectionViewCell {
+class  HerramientasCollectionViewCell : UICollectionViewCell {
     ///MARK: - Public API
     var herramienta: herramientas! {
         didSet{

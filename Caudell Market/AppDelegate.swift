@@ -11,10 +11,15 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    //:- Mark Metodo dummie por mientras para probar funcionamiento de la app 
     var window: UIWindow?
+    
+    var urlServicio:String = "https://esb.boschenlinea.com/api"
 
-
+    var token = "Basic WlZeTTRZKldiIyVqOXRwZ1olUmx2eTJUaml5Wjola3BqYkk0YzNAalR1IVUzUUIkZEtXS2E1dzkkMXpkJVI3bGdAQ3ZLVExhViV2VjFWaQ=="
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true

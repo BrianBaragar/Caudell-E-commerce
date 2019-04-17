@@ -7,7 +7,26 @@
 //
 
 import UIKit
+import CoreData
+import Alamofire
+import SwiftyJSON
 
 class ToolCollectionViewCell: UICollectionViewCell {
+    ///MARK: - Herramientas
+    var herramienta: herramientas! {
+        didSet{
+            updateUI()
+        }
+    }
+    ///MARK: -Private
+    @IBOutlet weak var imagen: UIImageView!
+    @IBOutlet weak var HerramientaNameLabel: UILabel!
+    
+    private func updateUI() {
+         HerramientaNameLabel?.text = herramienta.texto
+         imagen?.image! = herramienta.imagenes
+    }
+
+    
     
 }
