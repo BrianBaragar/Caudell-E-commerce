@@ -1,0 +1,6 @@
+framework module Pods_Caudell_Market {
+  umbrella header "Pods-Caudell Market-umbrella.h"
+
+  export *
+  module * { export * }
+}
