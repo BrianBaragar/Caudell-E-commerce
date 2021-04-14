@@ -1,2 +1,6 @@
 # Caudell-E-commerce
-Caudell es un market con posibilidad de realidad aumentada.
+Aplicacion de consumo de un eccomerce, muestra el objeto seleccionado de la tienda en Realidad Mixta.
+Patron 🔗
+MVC
+Frameworks 🧩
+Arkit
